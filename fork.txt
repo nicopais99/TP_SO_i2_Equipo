@@ -2,3 +2,8 @@ Nombre: Patricio
 Apellido: Leiva
 Ip: 190.189.3.111
 hora: 9:28
+
+Nombre: Nicolás
+Apellido: Pais
+Ip:2800:40:33:10c2:39bc:ca14:dde:dcfc
+hora: 9:43
