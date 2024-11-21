@@ -1,0 +1,21 @@
+Respuestas TP ARQSO:
+
+a) Agrega el repositorio original como remoto:
+
+
+git remote add upstream <URL-del-repo-original>
+Descarga los cambios del repositorio original:
+
+
+git fetch upstream
+Fusiona esos cambios en tu rama principal:
+
+
+git merge upstream/main
+
+
+b) El fork de ALFA en realidad esta sincronizado con el repo original. Sin embargo ALFA puede hacer un pull desde el repositorio de GAMMA si lo agrega como remoto.
+
+c) GAMMA no puede actualizar directamente su fork al estado del fork de ALFA pero puede agregar al repositorio de ALFA como un remoto adicional y luego traer los cambios desde ahí.
+
+d) No los datos no se pierden pero si generaste conflictos con los cambios que hiciste en el repo tenes que resolverlos manualmente.
